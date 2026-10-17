@@ -1,0 +1,58 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#eef2f5;color:#222;max-width:800px;margin:0 auto;padding:10px;line-height:1.4}
+h1{text-align:center;color:#2b3a4a;margin-bottom:5px}
+h2{margin-top:0;border-bottom:1px solid #8a9aa8;padding-bottom:5px}
+h3{margin:0 0 6px}
+code{background:#e3e9ee;padding:1px 4px}
+
+.hero{text-align:center;padding-top:10px}
+.hero p{margin:3px 0}
+.hero .role{font-style:italic}
+.avatar{width:90px;height:90px;border-radius:50%;background:#2b3a4a;color:#fff;font-size:28px;font-weight:bold;line-height:90px;margin:0 auto 10px}
+
+nav{text-align:center;padding:8px;background:#d5dee6;border:1px solid #8a9aa8}
+nav a{margin:0 8px;color:#1a4a7a}
+
+.panel{background:#fff;border:1px solid #8a9aa8;padding:15px;margin:15px 0}
+
+.tags{padding-left:20px;margin:0}
+.tags li{margin-bottom:3px}
+
+.row{margin:8px 0}
+button{padding:5px 10px;margin:3px}
+input[type=text],input[type=email],input[type=search],select,textarea{padding:4px;font-family:inherit}
+button.pill.active{background:#2b3a4a;color:#fff}
+
+.out{background:#eef2f5;border:1px solid #b5c0ca;padding:8px;margin-top:8px;font-family:monospace;white-space:pre-wrap;min-height:30px}
+pre{background:#eef2f5;border:1px solid #b5c0ca;padding:8px;overflow-x:auto;font-size:13px}
+
+.reel{margin:8px 0;min-height:28px}
+.frame{display:inline-block;border:1px solid #2b3a4a;padding:2px 8px;margin:2px;background:#fff8c9}
+.reel .empty{color:#666}
+
+.box{border:2px solid #2b3a4a;padding:10px;margin:8px;text-align:center;cursor:pointer;background:#fff}
+
+#todo{padding-left:20px}
+#todo li{margin-bottom:5px}
+#todo li button{margin-left:6px}
+.accent-on{background:yellow}
+
+.project{border:1px solid #8a9aa8;padding:10px;margin:8px 0;background:#f8fafb}
+.project h3{margin:0 0 4px}
+.project small{color:#555}
+
+.field{margin-bottom:10px}
+.field label{display:block;font-weight:bold;margin-bottom:3px}
+.field input,.field textarea{width:100%;max-width:400px;box-sizing:border-box}
+.error{display:block;color:red;font-size:13px;min-height:16px}
+.ok{color:green}
+.msg{border:1px solid #b5c0ca;background:#f8fafb;padding:8px;margin:6px 0}
+.msg button{float:right}
+
+footer{text-align:center;color:#555;padding:15px;font-size:14px}
+
+@media (max-width:600px){
+  body{padding:5px}
+  nav a{display:block;margin:4px 0}
+  .panel{padding:10px}
+  .field input,.field textarea{max-width:100%}
+}
